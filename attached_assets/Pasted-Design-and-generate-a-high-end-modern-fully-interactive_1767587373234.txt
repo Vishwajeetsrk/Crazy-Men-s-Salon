@@ -1,0 +1,156 @@
+Design and generate a high-end, modern, fully interactive website for a men’s grooming brand named “Crazy Men’s Salon”.
+
+🌐 Website Style & Experience
+
+Ultra-modern 2025–2026 website style
+
+Dark theme (black, charcoal, red accents)
+
+Smooth scroll animations
+
+Parallax effects
+
+Hover animations on cards
+
+Micro-interactions (buttons, icons, images)
+
+Cinematic barber-shop feel
+
+Apple-like clean UI + bold typography
+
+🧠 Visual & Media Requirements
+
+Use REALISTIC, HIGH-QUALITY photos
+
+Men’s haircutting (real scissors, trimmer action shots)
+
+Beard trimming close-ups
+
+Facial & grooming realistic photos
+
+Modern men hairstyles (fade, taper, beard styling)
+
+Real salon interior feel
+
+Avoid cartoons — photorealistic only
+
+🏠 Website Sections (Must Include)
+1️⃣ Hero Section (WOW Factor)
+
+Full-screen animated hero
+
+Background: real barber cutting hair (slow-motion effect)
+
+Heading:
+“Style That Defines the Modern Man”
+
+Subtext:
+Premium Haircuts • Beard Styling • Grooming
+
+Buttons:
+
+🔴 Book Now
+
+📍 Visit Us
+
+2️⃣ Services (Animated Cards)
+
+Display services in animated glass-effect cards:
+
+Haircut & Shaving – ₹200
+
+Beard Trimming – ₹80
+
+Shaving – ₹70
+
+Facial & Face Packs – ₹450
+
+Hair Highlighting – ₹500
+
+Hair Coloring – ₹250
+
+Each card:
+
+Realistic service image
+
+Hover glow animation
+
+Smooth entrance animation
+
+3️⃣ Why Choose Crazy Men’s Salon
+
+Skilled Barbers
+
+Premium Tools
+
+Hygienic Environment
+
+Affordable Pricing
+
+Home Service within 1 KM
+
+Animate icons when scrolling.
+
+4️⃣ Hairstyle Gallery (Real Images Only)
+
+Masonry layout
+
+Fade / slide animation on scroll
+
+Real men haircut styles
+
+Zoom-on-hover
+
+5️⃣ Booking Section (High Conversion)
+
+Button: Book Appointment
+
+Connect to WhatsApp booking:
+https://wa.me/918310622250
+
+Simple animated booking form:
+
+Name
+
+Phone
+
+Service
+
+6️⃣ Visit Us (Google Map)
+
+Embed Google Map:
+https://maps.app.goo.gl/vPA2ETFNxgQXhRvh6
+
+Button: Open in Google Maps
+
+7️⃣ Floating Action Buttons (Very Important)
+
+📞 Call Now (click-to-call)
+
+💬 WhatsApp Booking
+
+📍 Visit Us (Map)
+
+🎨 Fonts & UI
+
+Bold modern fonts (Barber / Urban style)
+
+Large headings
+
+Clean spacing
+
+Premium animation timing (not flashy)
+
+⚙️ Technical
+
+Fully responsive (mobile-first)
+
+Fast loading
+
+SEO optimized
+
+PWA-ready
+
+Smooth 60fps animations
+
+Build the website using modern frontend practices (React / Framer Motion / GSAP OR advanced HTML, CSS, JS).
