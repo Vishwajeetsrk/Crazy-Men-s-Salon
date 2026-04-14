@@ -6,7 +6,7 @@ import { useCreateBooking } from "@/hooks/use-shop";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, Calendar, User, Phone as PhoneIcon, Scissors, QrCode } from "lucide-react";
 import { motion } from "framer-motion";
-import qrCodeImg from "@assets/Crazy_Mens_Salon_Booking_QR_1767588270032.png";
+import qrCodeImg from "@assets/Screenshot_2026-04-14-14-33-35-03_dce875ef40efa4e902b2719365b6_1776157431018.jpg";
 
 interface BookingFormProps {
   selectedService?: string;
