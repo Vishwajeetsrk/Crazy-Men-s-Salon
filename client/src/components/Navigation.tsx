@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logoImg from "@assets/logo_1767588259120.png";
+import logoImg from "@assets/Screenshot_2026-04-14-14-34-28-68_dce875ef40efa4e902b2719365b6_1776157476229.jpg";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
