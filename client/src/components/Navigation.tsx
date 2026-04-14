@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Scissors } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logoImg from "@assets/logo_1767588259120.png";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,13 +40,12 @@ export function Navigation() {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 group cursor-pointer">
-          <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white group-hover:bg-white group-hover:text-primary transition-colors duration-300">
-            <Scissors size={20} />
-          </div>
-          <span className="text-2xl font-display font-bold tracking-widest text-white uppercase group-hover:text-primary transition-colors">
-            Blade & <span className="text-primary group-hover:text-white">Fade</span>
-          </span>
+        <Link href="/" className="flex items-center gap-3 group cursor-pointer">
+          <img
+            src={logoImg}
+            alt="Crazy Men's Salon"
+            className="h-12 w-auto object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
+          />
         </Link>
 
         {/* Desktop Links */}
@@ -86,6 +86,11 @@ export function Navigation() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden fixed inset-0 bg-black/95 z-40 flex flex-col items-center justify-center space-y-8"
           >
+            <img
+              src={logoImg}
+              alt="Crazy Men's Salon"
+              className="h-20 w-auto object-contain mb-4"
+            />
             {links.map((link) => (
               <button
                 key={link.label}

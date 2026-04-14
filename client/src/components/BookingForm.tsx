@@ -4,8 +4,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { insertBookingSchema, type InsertBooking } from "@shared/schema";
 import { useCreateBooking } from "@/hooks/use-shop";
 import { useToast } from "@/hooks/use-toast";
-import { Loader2, Calendar, User, Phone as PhoneIcon, Scissors } from "lucide-react";
+import { Loader2, Calendar, User, Phone as PhoneIcon, Scissors, QrCode } from "lucide-react";
 import { motion } from "framer-motion";
+import qrCodeImg from "@assets/Crazy_Mens_Salon_Booking_QR_1767588270032.png";
 
 interface BookingFormProps {
   selectedService?: string;
@@ -131,6 +132,27 @@ export function BookingForm({ selectedService }: BookingFormProps) {
           By booking, you agree to our terms. We'll confirm your slot via WhatsApp.
         </p>
       </form>
+
+      {/* QR Code Section */}
+      <div className="mt-8 pt-8 border-t border-white/10 flex flex-col items-center gap-4">
+        <div className="flex items-center gap-2 text-gray-400 text-sm">
+          <QrCode size={16} className="text-primary" />
+          <span>Or scan to book instantly</span>
+        </div>
+        <div className="relative group">
+          <div className="absolute inset-0 bg-primary/20 rounded-xl blur-xl group-hover:bg-primary/30 transition-all duration-300" />
+          <div className="relative bg-white rounded-xl p-3 shadow-2xl">
+            <img
+              src={qrCodeImg}
+              alt="Crazy Men's Salon Booking QR Code"
+              className="w-40 h-40 object-contain rounded-lg"
+            />
+          </div>
+        </div>
+        <p className="text-xs text-gray-500 text-center">
+          Scan with your phone camera to open WhatsApp booking
+        </p>
+      </div>
     </div>
   );
 }
