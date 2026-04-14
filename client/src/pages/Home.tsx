@@ -240,7 +240,7 @@ export default function Home() {
                   <div className="flex items-start gap-4">
                     <MapPin className="text-primary w-6 h-6 mt-1" />
                     <div>
-                      <h4 className="text-white font-bold mb-1">Blade & Fade Barbershop</h4>
+                      <h4 className="text-white font-bold mb-1">Crazy Men's Salon</h4>
                       <p className="text-gray-400">123 Grooming Street, Downtown District<br />City, State 560001</p>
                     </div>
                   </div>
@@ -286,16 +286,13 @@ export default function Home() {
       <footer className="bg-black py-12 border-t border-white/10">
         <div className="container px-4 mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
-              <Scissors size={16} />
-            </div>
             <span className="text-xl font-display font-bold tracking-widest text-white uppercase">
-              Blade & <span className="text-primary">Fade</span>
+              Crazy <span className="text-primary">Men's</span> Salon
             </span>
           </div>
           
           <div className="text-gray-500 text-sm">
-            © 2024 Blade & Fade Barbershop. All rights reserved.
+            © 2026 Crazy Men's Salon. All rights reserved.
           </div>
           
           <div className="flex gap-6">
